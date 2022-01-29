@@ -1,0 +1,35 @@
+body { font-size: 16px }
+
+.title { width:50% ; margin: 0 auto; text-align: center;}
+
+.icon-holder {width:50% ; margin: 0 auto; text-align: space; }
+
+.wrapper {width: 43%; display: inline-block; padding: 1em;}
+.wrapper img {width: 100%;}
+
+#Icon_gaming { cursor: pointer; }
+
+.data {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  
+  .data:hover {opacity: 1}
+
+  div {
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 255, 255);
+    transition: width 2s;
+  }
+  
+  div:hover {
+    width: 300px;
+  }
